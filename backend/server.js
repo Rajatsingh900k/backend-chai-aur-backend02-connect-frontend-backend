@@ -39,6 +39,4 @@ App.get('/api/jokes',(req,res)=>{
 
 const port = process.env.PORT || 3000;
 
-App.listen(port,()=>{
-    console.log(`server running at ${port}`);
-})
+export default App
